@@ -5,7 +5,8 @@ body {
 }
 header {
     background-color: #002171;
-    color: #ffffff
+    color: #ffffff;
+    background-image: url(./assets/sunset.jpeg)
 }
 nav {
     background-color: #bbdefb;
