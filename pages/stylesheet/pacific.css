@@ -15,6 +15,7 @@ header {
 nav {
     background-color: #bbdefb;
     font-weight: bold;
+    text-decoration: none;
 }
 h1 {
     margin-bottom: 0;
