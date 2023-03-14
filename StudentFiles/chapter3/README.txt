@@ -1,1 +1,0 @@
-There are no student files for Chapter 3.
