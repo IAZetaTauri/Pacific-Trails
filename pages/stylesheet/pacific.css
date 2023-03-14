@@ -6,12 +6,11 @@ body {
 header {
     background-color: #002171;
     color: #ffffff;
-    background-image: url('./images/sunset.jpg');
+    background-image: url('/pages/images/sunset.jpg');
     background-position: right;
     background-repeat: no-repeat;
     line-height: 400%;
     text-indent: 1em;
-
 }
 nav {
     background-color: #bbdefb;
