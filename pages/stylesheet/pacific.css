@@ -7,7 +7,7 @@ header {
     background-color: #002171;
     color: #ffffff;
     background-image: url("sunset.jpg");
-    /*image is not rendering when placed in the image folder*/
+    /*image is not rendering when placed in the image folder, seperate from the CSS file*/
     background-position: right;
     background-repeat: no-repeat;
     line-height: 400%;
@@ -34,7 +34,7 @@ h3 {
 }
 ul {
     list-style-image: url('marker.gif');
-    /*image is not rendering when placed in the image folder*/
+    /*image is not rendering when placed in the image folder, seperate from the CSS file*/
 }
 footer {
     font-size: 75%;
