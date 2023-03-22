@@ -1,12 +1,12 @@
 body {
-    background-color: #90c7e3;
-    background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
-    background-repeat: no-repeat;
+    background-color: #eaeaea;
     color: #666666;
     font-family: Arial, Helvetica, sans-serif;
 }
 #wrapper {
-    background-color: #ffffff;
+    background-color: #90c7e3;
+    border: 1px solid #000033;
+    background-image: linear-gradient(to bottom, #ffffff, #90c7e3);
     margin-left: auto;
     margin-right: auto;
     width: 80%;
@@ -17,30 +17,58 @@ body {
 header {
     background-color: #002171;
     color: #ffffff;
-    background-image: url("images/sunset.jpg");
-    background-position: right;
-    background-repeat: no-repeat;
     text-align: center;
-    padding-top: 15px;
-    height: 60px;
-}
-main {
-    padding: 1px 20px 20px 20px;
-    display: block;
+    padding-top: 30px;
+    padding-left: 3em;
+    height: 120px;
 }
 nav {
-    background-color: #ffffff;
     font-weight: bold;
-    text-align: center;
-    padding: 1em;
+    font-size: 120%;
+    padding: 1.5em;
+    width: 160px;
+    float: left;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-left: 0;
+    font-size: 1.2em;
+}
+nav a:link {
+    color: #5c7fa3;
+}
+nav a:visited {
+    color: #344873;
+}
+nav a:hover {
+    color: #a52a2a;
 }
 nav a {
     background-color: #ffffff;
     text-decoration: none;
 }
+main {
+    background-color: #ffffff;
+    padding: 1px 20px 20px 30px;
+    display: block;
+    margin-left: 190px;
+    overflow: auto;
+}
+main ul {
+    list-style-image: url('images/marker.gif');
+}
+section {
+    float: left;
+    width: 33%;
+    padding-left: 2em;
+    padding-right: 2em;
+}
 h1 {
     margin-bottom: 0;
     margin-top: 0;
+    font-size: 3em; 
+    letter-spacing: 0.25em;
     font-family: Georgia, "Times New Roman", serif;
 }
 h2 {
@@ -52,14 +80,13 @@ h3 {
     color: #000033;
     font-family: Georgia, "Times New Roman", serif;
 }
-ul {
-    list-style-image: url('images/marker.gif');
-}
 footer {
+    background-color: #ffffff;
     font-size: 75%;
     font-style: italic;
     text-align: center;
     padding: 2em 2em 2em 2em;
+    margin-left: 190px;
     font-family: Georgia, "Times New Roman", serif;
 }
 dt {
@@ -74,19 +101,25 @@ dt {
 }
 #homehero {
     height: 300px;
-    background-image: url("images/coast.jpg");
+    background-image: url("images/coast2.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
 }
 #yurthero {
     height: 300px;
     background-image: url("images/yurt.jpg");
     background-size: 100% 100%;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
+    margin-left: 190px; 
 }
 #trailhero {
     height: 300px;
     background-image: url("images/trail.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
+    margin-left: 190px;
+}
+* {
+    box-sizing: border-box;
 }
