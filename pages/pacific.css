@@ -22,6 +22,19 @@ header {
     padding-left: 3em;
     height: 120px;
 }
+header a {
+    text-decoration: none;
+    color: #ffffff;
+}
+header a:link {
+    color: #ffffff;
+}
+header a:visited {
+    color: #ffffff;
+}
+header a:hover {
+    color: #90c7e3;
+}
 nav {
     font-weight: bold;
     font-size: 120%;
