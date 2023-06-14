@@ -91,6 +91,26 @@ h3 {
     color: #000033;
     font-family: Georgia, "Times New Roman", serif;
 }
+#special {
+    clear: both;
+}
+.text {
+    text-align: left;
+}
+table {
+    border: 2px solid #3399cc;
+    border-collapse: collapse;
+}
+tr:nth-of-type(odd) {
+    background-color: #bddff0;
+}
+td, th {
+    padding: 0.5em;
+    border: 2px solid #3399cc;
+}
+td {
+    text-align: center;
+}
 footer {
     background-color: #ffffff;
     font-size: 75%;
